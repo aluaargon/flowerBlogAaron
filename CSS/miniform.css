@@ -1,0 +1,170 @@
+/* Makeshift CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:ital,wght@1,500&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+	display: block;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0 auto;
+	padding: 22px 0;
+	width: 940px;
+	background: #f0f0f0;
+}
+
+h1, h2 {
+	font-size: 28px;
+	line-height: 44px;
+	padding: 22px 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 22px;
+	padding: 11px 0;
+}
+
+p {
+	padding-bottom: 22px;
+}
+
+nav {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: url("images/nav_background.png");
+}
+
+nav ul {
+	margin: 0 auto;
+	width: 940px;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+}
+
+	nav ul li a {
+		display: block;
+		margin-right: 20px;
+		width: 140px;
+		font-size: 14px;
+		line-height: 44px;
+		text-align: center;
+		text-decoration: none;
+		color: #777;
+	}
+
+		nav ul li a:hover {
+			color: #fff;
+		}
+
+		nav ul li.selected a {
+			color: #fff;
+		}
+
+		nav ul li.subscribe a {
+			margin-left: 22px;
+			padding-left: 33px;
+			text-align: left;
+			background: url("images/rss.png") left center no-repeat;
+		}
+        #ResgisterForm {
+            margin-top: 21px;
+            padding-top: 22px;
+            border-top: 1px solid #d7d7d7;
+        }
+        
+        #ResgisterForm p {
+            display: table;
+            margin-bottom: 22px;
+            padding: 0 22px;
+        }
+        
+        #ResgisterForm label {
+                display: table-cell;
+                width: 100px;
+                padding-right: 20px;
+                text-align: right;
+                font-weight: bold;
+                vertical-align: top;
+            }
+        
+            #ResgisterForm input[type="text"], form input[type="email"], form input[type="url"] {
+                display: table-cell;
+                width: 150px;
+                height: 20px;
+                border: 1px solid #d7d7d7;
+            }
+            
+            #ResgisterForm textarea {
+                width: 150px;
+                height: 100px;
+                border: 1px solid #d7d7d7;
+            }
+                                
+            #ResgisterForm input[type="submit"]{
+                    margin-left: 162px;
+                    width: 100px;
+                    height: 25px;
+                    font-size: 15px;
+            }
+        
+        
+    footer {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: #222;
+    }
+    
+        footer div {
+            display: table;
+            margin: 0 auto;
+            padding: 44px 0;
+            width: 940px;
+            color: #777;
+        }
+        
+            footer div section {
+                display: table-cell;
+                width: 300px;
+            }
+            
+            footer div #about, footer div #blogroll {
+                padding-right: 20px;
+            }
+            
+        footer h3 {
+            color: #FFF;
+        }
+        
+        footer a {
+            color: #999;
+        }
+        
+            footer a:hover {
+                color: #FFF;
+                text-decoration: none;
+            }
+        
+        footer ul {
+            margin: 0 0 0 40px;
+            list-style: square;
+            color: #565656;
+        }
+        
+            footer ul li a {
+                display: block;
+            }
+    
+    
+    

@@ -2,7 +2,12 @@
 <html lang="es">
 <head>
 	<title>The Flower Blog</title>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" media="screen and (min-width: 481px)" />
+    <!--<link href="CSS/mediumform.css" rel="stylesheet" type="text/css" media="screen and (min-width: 481px) and (max-width: 980px)" />-->
+    <link href="CSS/miniform.css" rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
 </head>
 <body>
 	<header>
@@ -10,21 +15,16 @@
 	</header>
 	<nav>
         <ul>
-            <li class="selected"><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="selected"><a href="form.html">Form</a></li>
             <li><a href="#">Archives</a></li>
             <li><a href="#">Contact</a></li>
             <li class="subscribe"><a href="#">Subscribe via. RSS</a></li>
         </ul>
 	</nav>
-        <section id="introform">
-            <header>
-                <h2>Do you love flowers as much as we do?</h2>
-            </header>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>    
-	    </section>
+        
         <br>
-                <form action="#" method="post">
+                <form action="#" method="post" id="ResgisterForm"> 
                     <h3>Register</h3>
                     <p>
                         <label for="name">Name</label>
@@ -39,10 +39,10 @@
                         <input name="passwd" id="passwd" type="text" />
                     </p>
                     <p>
-                        <label for="passwd">Password</label>
+                        <label for="passwd">Rewrite Password</label>
                         <input name="passwd" id="passwd" type="text" />
                     </p>
-                    <p><input type="submit" value="Post comment" /></p>
+                    <p><input type="submit" value="Register" /></p>
                 </form>
                 <br>   
         <footer>

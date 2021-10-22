@@ -122,52 +122,7 @@ nav ul li {
 			-moz-border-radius: 22px;
 			-webkit-border-radius: 22px;
 		}
-		#introform {
-			position: relative;
-			margin-top: 66px;
-			padding: 44px;
-			background: #467612 url("images/intro_background.png") repeat-x;
-			
-			/* Background-size not implemented yet */
-			-webkit-background-size: 100%;
-			-o-background-size: 100%;
-			-khtml-background-size: 100%;
 		
-			
-			/* Border-radius not implemented yet */
-			-moz-border-radius: 22px;
-			-webkit-border-radius: 22px;
-		}
-		#introform h2, #introform p {
-			position: relative;
-			z-index: 9999;
-			width: 336px;
-		}
-		
-		#introform h2 {
-			padding: 0 0 22px 0;
-			font-weight: normal;
-			color: #fff;
-		}
-		
-		#introform p {
-			padding: 0;
-			color: #d9f499;
-		}
-		
-		#introform img {
-			position: absolute;
-			top: 0;
-			right: 0;
-			width: 100%;
-			height: 100%;
-		
-			/* Border-radius not implemented yet */
-			-moz-border-radius: 22px;
-			-webkit-border-radius: 22px;
-		}
-
-
 
 #content {
 	display: table;
@@ -183,9 +138,6 @@ aside {
 	width: 300px;
 	background: url("images/sidebar_background.png") top left;
 }
-
-
-
 .blogPost header p, .blogPost header p a {
 	font-size: 14px;
 	font-style: italic;
@@ -252,19 +204,19 @@ margin: 22px 0;
 		}
 
 
-		form {
+		#commentform {
 			margin-top: 21px;
 			padding-top: 22px;
 			border-top: 1px solid #d7d7d7;
 		}
 		
-			form p {
+		#commentform p {
 				display: table;
 				margin-bottom: 22px;
 				padding: 0 22px;
 			}
 		
-				form label {
+			#commentform label {
 					display: table-cell;
 					width: 140px;
 					padding-right: 20px;
@@ -273,23 +225,64 @@ margin: 22px 0;
 					vertical-align: top;
 				}
 			
-				form input[type="text"], form input[type="email"], form input[type="url"] {
+				#commentform input[type="text"], form input[type="email"], form input[type="url"] {
 					display: table-cell;
 					width: 300px;
 					height: 20px;
 					border: 1px solid #d7d7d7;
 				}
 				
-				form textarea {
+				#commentform textarea {
 					width: 300px;
 					height: 100px;
 					border: 1px solid #d7d7d7;
 				}
 				
-				form input[type="submit"] {
+				#commentform input[type="submit"] {
 					margin-left: 162px;
 				}
-		
+
+				#ResgisterForm {
+					margin-top: 21px;
+					padding-top: 22px;
+					border-top: 1px solid #d7d7d7;
+				}
+				
+				#ResgisterForm p {
+					display: table;
+					margin-bottom: 22px;
+					padding: 0 22px;
+				}
+			
+				#ResgisterForm label {
+						display: table-cell;
+						width: 140px;
+						padding-right: 20px;
+						text-align: right;
+						font-weight: bold;
+						vertical-align: top;
+					}
+				
+					#ResgisterForm input[type="text"], form input[type="email"], form input[type="url"] {
+						display: table-cell;
+						width: 300px;
+						height: 20px;
+						border: 1px solid #d7d7d7;
+					}
+					
+					#ResgisterForm textarea {
+						width: 300px;
+						height: 100px;
+						border: 1px solid #d7d7d7;
+					}
+										
+					#ResgisterForm input[type="submit"]{
+							margin-left: 162px;
+							width: 150px;
+							height: 30px;
+							font-size: 15px;
+					}
+
 aside section {
 	margin: 22px 0 0 22px;
 	padding: 11px 22px;
